@@ -1,0 +1,19 @@
+{
+  "name": "changlogtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "release-it",
+    "release:alpha": "release-it --preRelease=alpha",
+    "release:beta": "release-it --preRelease=beta",
+    "release:rc": "release-it --preRelease=rc",
+    "release:mannual": "release-it --no-plugins"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "release-it": "^15.10.3"
+  }
+}
