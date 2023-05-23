@@ -1,6 +1,6 @@
 {
   "name": "changlogtest",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,11 @@
     "release:beta": "release-it --preRelease=beta",
     "release:rc": "release-it --preRelease=rc",
     "release:mannual": "release-it --no-plugins"
-
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
     "release-it": "^15.10.3"
   }
 }

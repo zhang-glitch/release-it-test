@@ -3,7 +3,7 @@
     "release": true
   },
   "git": {
-    "changelog": "auto-changelog --stdout --commit-limit false",
+    "changelog": "npx auto-changelog --stdout --commit-limit false",
     "requireCleanWorkingDir": false,
     "requireUpstream": true,
     "requireCommits": false,
@@ -25,8 +25,11 @@
     "access": null,
     "otp": null
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "hooks": {
-    "after:bump": "auto-changelog -p"
+    "after:bump": "npx auto-changelog -p"
   },
   "plugins": {
     "@release-it/conventional-changelog": {
